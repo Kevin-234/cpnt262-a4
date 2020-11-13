@@ -1,7 +1,7 @@
 # cpnt262 Assignment 4: Express Gallery Website
 ## Author name: [Kevin Taguchi](https://github.com/Kevin-234)
-### GH [repo]()
-### [Heroku URL]()
+### GH [repo](https://github.com/Kevin-234/cpnt262-a4)
+### [Heroku URL](https://samurai-arts.herokuapp.com/)
 
 ### Attribution
 Tony's [in-class](https://github.com/sait-wbdv/in-class) helped me a lot. 
