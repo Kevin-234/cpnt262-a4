@@ -1,0 +1,71 @@
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 79vh;
+}
+
+legend {
+    font-size: 2.8em;
+}
+
+fieldset {
+    padding: 20px;
+    width: 50vw;
+    color: #000;
+}
+
+input {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 40vw;
+    
+    flex: 1;
+
+    border: 1px solid black;
+}
+
+#username {
+    margin-left: 80px;
+}
+
+#password {
+    margin-left: 83px;
+}
+
+/* submit button */
+.btn {
+    /* position to center */
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: #fff;
+    padding: 10px 20px;
+    border: 1px solid black;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+@media screen and (max-width: 550px) {
+    form {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    max-height: 100vh;
+    }
+    
+    .ftr {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+}

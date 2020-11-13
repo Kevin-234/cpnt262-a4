@@ -1,0 +1,151 @@
+/* wrapper */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* navigation bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 90vw;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 10vw;
+    height: 10vh;
+}
+
+.icon {
+    margin-left: 30px;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    display: flex;
+    list-style-type: none; 
+}
+
+a {
+    display: flex;
+    text-decoration: none;
+    margin: 0 1em;
+    color: black;
+    font-size: 1.4em;
+}
+
+.fas {
+    font-size: 2rem;
+}
+
+/* header */
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section h1 {
+    font-size: 3em;
+}
+
+/* header paragraph */
+.paragraph {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5em;
+    /* margin-bottom: 30px; */
+}
+
+.bar {
+    width: 90vw;
+    height: 5px;
+    background-color: #000;
+}
+
+/* background image */
+.back-img {
+    height: 40vh;
+    width: 99vw;
+    background-image: url(../img/2217-e.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1100px;
+}
+
+.text-field p{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.4em;
+    margin: 4rem;
+    text-align: start;
+    line-height: 1.7em;
+}
+
+/* footer */
+footer {
+    font-size: 1.3rem;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100px;
+    width: 99vw;
+    
+    
+    background-color: #030303;
+    color: white;
+  }
+
+  /* responsive */
+  @media screen and (max-width: 1200px){
+      .text-field {
+          max-width: 90%;
+      }
+
+      /* background image */
+.back-img {
+    height: 40vh;
+    width: 90vw;
+    background-image: url(../img/2217-e.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1000px;
+}
+  }
+
+  @media screen and (max-width: 620px){
+    .bar {
+        margin: 18px;
+        margin-bottom: 0;
+    }
+
+    .logo {
+        margin-left: 0px;
+    }
+
+}
+
+/* resposive of header.js */
+@media screen and (max-width: 570px){
+    .hero-section {
+        text-align: center;
+    }
+
+    .paragraph {
+        text-align: center;
+    }
+
+}
+
+

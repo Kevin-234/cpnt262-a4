@@ -1,0 +1,64 @@
+.gallery {
+    display: grid;
+    /* Make Responsive */
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+      justify-items: center;
+      /* Limit the max width */
+      max-width: 1300px;
+      /* Center */
+      margin: auto;
+
+      
+}
+
+.bar {
+  margin-left: 4.5rem;
+}
+
+.card {
+  /* Give flex and change direction to coloumn  */
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  /* Give a space to top and bottom of page */
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  /* Width and Height for Figcaption area(bottom of an image) */
+  width: 26em;
+  /* height: 30em; */
+
+  /* Give shape to card and  */
+  border: 1px solid grey;
+  
+  background-color: rgb(255, 255, 255);
+
+  gap: 1em;
+
+ /* box show to card */
+  box-shadow: 0px 1px 1px 0px;
+}
+
+img {
+  /* Make each image have the same height especially for tiger image*/
+  height: 270px;
+  /* Make each image at least span the width of the card container(figure). */
+  min-width: 100%;
+  
+  /* aspect ratio */
+  object-fit: cover;
+  
+}
+
+/* Centralize Title and Author name */
+figcaption{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  .bar {
+    margin: 0;
+    min-width: 100vw;
+  }
+}

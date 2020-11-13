@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <!-- font icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/subscribe.css">
+    <!-- Javascript link -->
+    <script type="module" src="./js/client.js"></script>
+</head>
+<body class=<%= current %>>
+    <div class="wrapper">
+
+      <!-- Navigation bar -->
+      <%- include('../partials/nav'); %>
+
+      <!-- Subscribe form -->
+      <form action="#">          
+        <fieldset class="fieldset">
+          <legend>Subscribe</legend>
+          <div class="text-field">
+            <p>
+              <label for="username">Username:<abbr title="required" aria-label="required" >*</abbr></label> 
+              <input type="email" id="username" name="username" placeholder="Type your username (email) here" required>
+            </p>
+            <p>
+              <label for="password">Password:<abbr title="required" aria-label="required">*</abbr></label> 
+              <input type="password" id="password" name="password"  minlength="10" placeholder="Password (10 characters minimum)" required>
+            </p>
+            <p>
+              <label for="confirm">Confirm Password:<abbr title="required" aria-label="required">*</abbr></label> 
+              <input type="password" id="confirm" name="confirm-password"  placeholder="Confirm your password here" required>
+            </p>
+          </div>
+
+          <!-- Submit button -->
+          <div class="btn">
+            <button class="submit" type="submit">Submit</button>
+          </div>
+          
+        </fieldset>
+      </form>
+
+      <!-- Footer -->
+      <%- include('../partials/footer'); %>
+
+    </div>
+  </body>
+</html>
