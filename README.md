@@ -6,10 +6,10 @@
 ### Attribution
 Tony's [in-class](https://github.com/sait-wbdv/in-class) helped me a lot. 
 
-
+Thanks for [Patrick](https://github.com/mayorbcode) to help me out how to fixed the first comment issue.
 
 ### Comment
-+ It took me forever to figure out why my nav.ejs, header.ejs and footer.ejs wouldn't show up on gallery.ejs file. Solution was I had to change gallery render item string name to different name.
++ It took me forever to figure out why my nav.ejs, header.ejs and footer.ejs wouldn't show up on gallery page (gallery.ejs). Solution was I had to change gallery render item string name to different name. At the end, Patrick helped me out.
 
 + I had rough time to connect images. The images was keep showing up undefined.
 
