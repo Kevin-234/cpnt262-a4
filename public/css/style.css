@@ -100,7 +100,7 @@ footer {
     justify-content: center;
     align-items: center;
     height:100px;
-    width: 99vw;
+    width: 100vw;
     
     
     background-color: #030303;
@@ -148,4 +148,10 @@ footer {
 
 }
 
-
+@media screen and (max-width: 400px){
+    footer {
+        width: 100vw;
+        padding-right: 7rem;
+        text-align: center;
+    }
+}
