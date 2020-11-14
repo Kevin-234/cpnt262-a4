@@ -16,4 +16,4 @@ Thanks for [Patrick](https://github.com/mayorbcode) to help me out how to fixed 
 + Last thing I struggle was footer.
 Whenever I minimize the page it created unknown blank space, but I  just forgot to add justify-content: center and align-items: center; to class wrapper in css.
 
-+ I also enjoy little bit this assignment because the most of Javascript we learnt in cpnt262 was combine and It was nice to understand how backend and frontend works together.
++ I enjoyed this assignment because the most of Javascript we learnt in cpnt262 was combine and it was nice to understand how backend and frontend works together.
