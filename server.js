@@ -16,6 +16,8 @@ app.set('view engine', 'ejs');
 // app.use is for using middleware to render static files
 app.use(express.static(path.join(__dirname, 'public')));
 
+// Parse all requests for url encoded form data.
+app.use(express.urlencoded({ extended: true }));
 
 // Homepage index render
 app.get('/', function(request, response) {
